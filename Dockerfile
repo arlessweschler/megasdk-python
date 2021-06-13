@@ -1,7 +1,7 @@
 FROM python:slim
 
 ENV LANG C.UTF-8
-ENV MEGA_SDK_VERSION '3.7.9'
+ENV MEGA_SDK_VERSION '3.9.0'
 
 RUN set -ex && \
         savedAptMark="$(apt-mark showmanual)" && \
